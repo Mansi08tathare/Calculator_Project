@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.content{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3B4664;
+}
+
+.calci{
+    height:60%;
+    width:27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.output input {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 25rem;   
+    height: 5rem;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;    
+    background: #181F32;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 10px;
+    border: none;
+  }
+
+.keypad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3B4664;    
+    height:88%;
+}
+
+#input{
+    background: #181F32;
+    padding-left: 12px;
+    /* padding: 0 1.2% 9% 1.2%; */
+    border-radius: 10px;
+    width:100%;
+}
+
+.keypad input{
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    width: 75px;
+    height: 40px;
+    border-radius: 9px;
+    font-size: 15px;
+    margin: 10px;
+    background: #EAE3DB;
+    color: #3B4664;
+    font-weight: 1000;
+    font-family: 'Inter', sans-serif;
+}
+
+#clear,#equal{
+    height:40px;
+    width:11rem;
+}
+
+#clear,#backspace{
+    background: #647299;
+}
+
+#equal{
+    background: #D13F30;
+}
+
+
+
+  
+
